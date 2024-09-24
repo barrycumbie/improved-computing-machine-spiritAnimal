@@ -1,3 +1,35 @@
+console.log("in console...");
+
+$('#btnToggle').on('click', function() {
+  console.log("event?:", "toggle clicked");
+
+  $('#divGameSection').toggle(); 
+
+  //turn game section off or on? 
+  
+  //$('#divGameSection').css("display", "none");
+
+  // $('#divGameSection').show(); 
+
+  //is it off or on? 
+  // console.log(
+  //   $('#divGameSection').is(":visible")
+  // ); 
+
+  // if($('#divGameSection').is(":visible"))
+  //   {
+  //     $('#divGameSection').hide(); 
+  //   }
+  //   else if(!$('#divGameSection').is(":visible")) {
+  //     $('#divGameSection').show(); 
+  //   }
+
+});
+
+$('#divGameSection').draggable(); 
+
+$('#imgDrag').draggable(); 
+
 // $('body').css("background-color", "yellow");
 
 // when button is clicked
